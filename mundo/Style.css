@@ -1,0 +1,61 @@
+html, body{
+    margin: 0;
+    font-family: "open sans";
+    width:  100%;
+    background: linear-gradient(to top, #2E3344, #6c77d8);
+    /* Ajusta el tamaño del gradiente para cubrir toda la página */
+    background-size: cover;
+    /* Evita la repetición del gradiente */
+    background-repeat: no-repeat;
+    font-size: 25px;
+}
+
+.container{
+    color: white;
+    width: 90%;
+    margin: auto;
+    padding-top: 70px;
+}
+.header{
+    display: flex;
+    
+}
+.header__logo{
+    width: 50%;
+    margin: auto;
+}
+
+.container__title{
+    text-align: center;
+    font-size: 1.7em;
+    margin: 14px 0 0 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 100%;
+}
+.container__subtitle{
+    margin: 27px 25px 10px 5px;
+    letter-spacing: 1.5px;
+}
+.container__product{
+    display: flex;
+}
+.container__span{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+
+}
+.container__content{
+    padding: 8px;
+    font-size: 0.95em;
+}
+
+.span__div{
+    display: flex;
+}
+
+.subtitle--font{
+    font-size: 0.75em;
+}
